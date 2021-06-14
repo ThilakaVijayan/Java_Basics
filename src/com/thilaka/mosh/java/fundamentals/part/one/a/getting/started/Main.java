@@ -1,4 +1,4 @@
-package com.thilaka.mosh.java.fundamentals.part.one.a;
+package com.thilaka.mosh.java.fundamentals.part.one.a.getting.started;
 
 public class Main {
     public static void main(String[] args) {

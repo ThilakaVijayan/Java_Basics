@@ -1,4 +1,4 @@
-package com.thilaka.mosh.java.fundamentals.part.one.b;
+package com.thilaka.mosh.java.fundamentals.part.one.b.types;
 
 /**
  * Escape Sequence

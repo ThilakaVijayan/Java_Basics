@@ -12,7 +12,11 @@ Primitive Types
 |short|2|[-32K,32K]
 |int|4|[-2B,2B]
 |long|8|[-9 quintillion, 9 quintillion]
-float|4|
-|double|8
+float|4| 8 digit precision max
+|double|8| 14 digit precision Always
 |char|2|A,B,C..|
 |boolean|1| true,false|
+
+Casting - Implicit and Explicit\
+Numbers, String and Arrays\
+Read Input

@@ -1,4 +1,4 @@
-package com.thilaka.mosh.java.fundamentals.part.one.b;
+package com.thilaka.mosh.java.fundamentals.part.one.b.types;
 
 public class N_Order_Of_Operations {
     public static void main(String[] args) {

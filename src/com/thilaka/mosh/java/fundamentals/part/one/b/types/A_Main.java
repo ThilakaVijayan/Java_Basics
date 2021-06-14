@@ -1,4 +1,4 @@
-package com.thilaka.mosh.java.fundamentals.part.one.b;
+package com.thilaka.mosh.java.fundamentals.part.one.b.types;
 
 public class A_Main {
     public static void main(String[] args) {
