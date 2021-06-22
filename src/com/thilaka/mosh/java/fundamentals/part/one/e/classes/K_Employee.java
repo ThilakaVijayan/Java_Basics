@@ -1,30 +1,35 @@
 package com.thilaka.mosh.java.fundamentals.part.one.e.classes;
 
-public class G_Employee2 {
+public class K_Employee {
     private int baseSalary;
     private int hourlyRate;
+
+    public K_Employee(int baseSalary, int hourlyRate) {
+        setBaseSalary(baseSalary); //using the setter method here, to reuse the validations.
+        setHourlyRate(hourlyRate);
+    }
 
     public int calculateWage(int extraHours){
         return baseSalary + (hourlyRate * extraHours);
     }
 
-    public void setBaseSalary(int baseSalary){
+    private void setBaseSalary(int baseSalary){
         if (baseSalary <= 0)
             throw  new IllegalArgumentException("Salary cannot be zero or less");
         this.baseSalary = baseSalary;
     }
 
-    public int getBaseSalary(){
+    private int getBaseSalary(){
         return this.baseSalary;
     }
 
-    public void setHourlyRate(int hourlyRate){
+    private void setHourlyRate(int hourlyRate){
         if(hourlyRate <= 0)
             throw new IllegalArgumentException("Hourly rate cannot be zero or less");
         this.hourlyRate = hourlyRate;
     }
 
-    public int getHourlyRate(){
+    private int getHourlyRate(){
         return this.hourlyRate;
     }
 }

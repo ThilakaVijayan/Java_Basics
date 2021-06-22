@@ -7,7 +7,7 @@
 6. Aspect-oriented
 
 # Whats in this package?
-Encapsulation\ 
+Encapsulation\
 Abstraction\
 Constructors\
 Getters/Setters\
